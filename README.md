@@ -14,7 +14,7 @@ Run `node scli [spotify-uri]`
 1. Add Spotify ClientID and Client Secret to the settings.json file manually
 1. Run `npm install`
 1. Run `node setup.js`
-1. Add the generated auth code to settings.json
+1. Paste the generated Authentication Code from your browser to the shell
 
 ## Requirements:
 
