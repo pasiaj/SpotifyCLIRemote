@@ -2,7 +2,7 @@ var SpotifyWebApi = require('spotify-web-api-node'),
     fs = require('fs');
 
 //Read settings and start validation
-fs.readFile('settings.json', 'utf8', validateTokens);
+fs.readFile('./settings.json', 'utf8', validateTokens);
 var settings, spotifyApi;
 
 var args = process.argv.splice(process.execArgv.length + 2);
@@ -82,7 +82,7 @@ function validateTokens(err, data){
 }
 
 function saveSettings(settings){
-    fs.writeFile('settings.json', JSON.stringify(settings), 'utf8', (err) => {
+    fs.writeFile('./settings.json', JSON.stringify(settings), 'utf8', (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
     });
