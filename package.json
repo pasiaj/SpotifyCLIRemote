@@ -1,0 +1,15 @@
+{
+  "name": "spotify-cli-remote",
+  "version": "1.0.0",
+  "description": "Change Songs on Spotify from the CLI",
+  "main": "scli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pasi Jokinen <pasi.jokinen@thingsee.com> (https://pasiaj.com)",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "spotify-web-api-node": "^3.1.1"
+  }
+}
