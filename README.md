@@ -8,8 +8,15 @@ This project is a barebones implementation for changing tracks and playlists fro
 
 Run `node scli [spotify-uri]`
 
+## Install
+
+1. Create a Spotify App
+1. Add Spotify ClientID and Client Secret to the settings.json file manually
+1. Run `npm install`
+1. Run `node setup.js`
+1. Add the generated auth code to settings.json
+
 ## Requirements:
 
- - Register a Spotify Developer Account
- - Add your ClientID and Client Secret to the settings file
- - Run `node setup.js`
+ - NodeJS
+ - A Spotify Developer Account
