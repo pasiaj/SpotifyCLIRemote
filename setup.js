@@ -4,7 +4,7 @@ var SpotifyWebApi = require('spotify-web-api-node'),
 
 var settings;
 
-fs.readFile('./settings.json', 'utf8', setup);
+fs.readFile('__dirname/settings.json', 'utf8', setup);
 
 function setup(err, data){
     if (err) throw err;
@@ -37,7 +37,7 @@ function setup(err, data){
         settings.accessToken = '';
         settings.tokenExpirationEpoch = '';
 
-        fs.writeFile('./settings.json', JSON.stringify(settings), 'utf8', (err) => {
+        fs.writeFile('__dirname/settings.json', JSON.stringify(settings), 'utf8', (err) => {
             if (err) throw err;
             console.log('The file has been saved!');
         });
