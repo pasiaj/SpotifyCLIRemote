@@ -1,3 +1,6 @@
+# Ignore settings changes
+settings.json
+
 # Logs
 logs
 *.log
