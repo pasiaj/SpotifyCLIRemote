@@ -1,4 +1,4 @@
-#Spotify CLI Remote
+# Spotify CLI Remote
 
 Control Spotify Connect playback from the command line.
 
