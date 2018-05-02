@@ -4,6 +4,10 @@ Control Spotify Connect playback from the command line.
 
 This project is a barebones implementation for changing tracks and playlists from the command line.
 
+## Usage
+
+Run ´node scli [spotify-uri]´
+
 ## Requirements:
 
  - Register a Spotify Developer Account
