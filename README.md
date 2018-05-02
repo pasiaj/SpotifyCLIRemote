@@ -6,7 +6,7 @@ This project is a barebones implementation for changing tracks and playlists fro
 
 ## Usage
 
-Run ´node scli [spotify-uri]´
+Run ´´´node scli [spotify-uri]´´´
 
 ## Requirements:
 
